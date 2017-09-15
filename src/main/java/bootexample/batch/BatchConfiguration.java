@@ -36,11 +36,9 @@ public class BatchConfiguration {
     public StepBuilderFactory stepBuilderFactory;
 
     @Autowired
+    @SuppressWarnings("all")
     public DataSource dataSource;
-
-    @Autowired
-    private JdbcTemplate jdbcTemplate;
-
+  
     // tag::readerwriterprocessor[]
     @Bean
     public FlatFileItemReader<Student> reader() {
