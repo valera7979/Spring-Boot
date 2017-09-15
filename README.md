@@ -1,5 +1,6 @@
 # Spring-Boot
-simple spring boot + aws-rds
+simple spring boot + spring batch + postgres DB
 
-Simple app with Spring Boot + cloud DB aws-rds
-tutorial - https://www.youtube.com/watch?v=ZA9WpK-lxXM&t=0s
+tutorials -
+        spring boot - https://www.youtube.com/watch?v=ZA9WpK-lxXM&t=0s
+        spring batch - https://spring.io/guides/gs/batch-processing/
